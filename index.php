@@ -1,3 +1,9 @@
+<?php
+// Ye do lines errors ko screen par dikha dengi
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
+// Baaki ka aapka code yahan se shuru...
 <!-- index.php me HTML/CSS bilkul same rahega -->
 <!DOCTYPE html>
 <html lang="en">
