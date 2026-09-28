@@ -1,4 +1,10 @@
 <?php
+// Ye do lines errors ko screen par dikha dengi
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
+// Baaki ka aapka code yahan se shuru...
+<?php
 // db.php
 $host = getenv('DB_HOST') ?: 'aws-0-region.pooler.supabase.com'; // Apna host daalein
 $port = getenv('DB_PORT') ?: '5432';
